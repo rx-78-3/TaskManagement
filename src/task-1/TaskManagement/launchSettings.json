@@ -1,0 +1,16 @@
+{
+  "profiles": {
+    "Docker Compose": {
+      "commandName": "DockerCompose",
+      "commandVersion": "1.0",
+      "composeLaunchAction": "LaunchBrowser",
+      "composeLaunchServiceName": "taskmanagement.api",
+      "composeLaunchUrl": "http://localhost:3000",
+      "serviceActions": {
+        "taskmanagement.api": "StartDebugging",
+        "taskmanagement.web.ui": "StartWithoutDebugging",
+        "users.db": "StartWithoutDebugging"
+      }
+    }
+  }
+}
