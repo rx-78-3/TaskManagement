@@ -14,9 +14,9 @@ You can run the project by selecting **docker-compose** Startup Item and **Run**
 
 # Solutions justification
 
--The project structure is simplified, everything is in one project. I don't see any point in complicating the structure since the requirements are quite simple.
--For the same reason, the project does not use logging.
--For the same reason, the project is not documented.
--The same goes for resource files and localization.
+- The project structure is simplified, everything is in one project. I don't see any point in complicating the structure since the requirements are quite simple.
+- For the same reason, the project does not use logging.
+- For the same reason, the project is not documented.
+- The same goes for resource files and localization.
 
 I indicate this because some test task examiners require all of this (and even more).
